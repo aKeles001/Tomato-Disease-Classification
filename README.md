@@ -1,10 +1,11 @@
 # TomatoDiseaseClassification
-Tomato leaf disease classification web application with neural-networks.
+A web application for tomato leaf disease classification using neural networks.
 
 # Dataset
-Dataset used in this project is acquired from kaggle "Plant Village" dataset which contain a lot of plant leaf diseases.
-Source: https://www.kaggle.com/datasets/arjuntejaswi/plant-village
+The dataset used in this project is acquired from Kaggle's "Plant Village" dataset, which contains a variety of plant leaf diseases.
+Source: Kaggle - https://www.kaggle.com/datasets/emmarex/plantdisease
 
+## Note
+This project is designed for Google Cloud Platform (GCP). After training, the prediction function and the trained models need to be uploaded to GCP. The trigger obtained from GCP is used for the client-side requester, and the output is displayed accordingly.
 
-#  Note
-This projet is designed for GCP aafter the training predict function and created models need to be uploaded into GCP. The trigger which optain from that is used for the client-side requester and the output is diplayed. GUI requster is still msiin so onece the project is finished it'll be updated. 
+The GUI requester is still missing, so once the project is completed, it will be updated.
